@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GitDemoLibrary
+﻿namespace GitDemoLibrary
 {
-    public class Class1
+    public class Service1
     {
         public string Prop1 { get; set; }
         public string Prop2 { get; set; }
