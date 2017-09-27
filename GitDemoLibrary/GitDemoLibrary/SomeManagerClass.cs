@@ -10,6 +10,6 @@
         }
         public string Property1 { get; set; }
 
-        public string Property2 => _service1.Prop2;
+        public string Property5 => _service1.Prop3;
     }
 }
