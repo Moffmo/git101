@@ -11,5 +11,7 @@
         public string Property1 { get; set; }
 
         public string Property5 => _service1.Prop3;
+
+        public string Property3 => _service1.Prop4;
     }
 }
