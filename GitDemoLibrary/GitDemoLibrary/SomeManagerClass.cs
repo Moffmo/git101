@@ -4,12 +4,15 @@
     {
         private readonly Service1 _service1;
         private readonly Service2 _service2;
+        private readonly Service7 _service7;
 
         public SomeManagerClass(Service1 service1,
-                                Service2 service2)
+                                Service2 service2,
+                                Service7 service7)
         {
             _service1 = service1;
             _service2 = service2;
+            _service7 = service7;
         }
         public string Property1 { get; set; }
 
