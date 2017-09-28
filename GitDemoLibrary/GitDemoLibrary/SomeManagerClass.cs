@@ -6,17 +6,20 @@
         private readonly Service2 _service2;
         private readonly Service7 _service7;
         private readonly Service8 _service8;
+        private readonly Service9 _service9;
 
         public SomeManagerClass(Service1 service1,
                                 Service2 service2,
                                 Service7 service7,
-                                Service8 service8
+                                Service8 service8,
+                                Service9 service9 
                                 )
         {
             _service1 = service1;
             _service2 = service2;
             _service7 = service7;
             _service8 = service8;
+            _service9 = service9;
         }
         public string Property1 { get; set; }
 
